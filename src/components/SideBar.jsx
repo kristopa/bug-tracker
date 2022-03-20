@@ -2,8 +2,11 @@ import React from 'react';
 
 const SideBar = () => {
   return (
-    <div className="flex flex-col overflow-hidden h-screen w-40
-                  bg-white shadow-lg">
+    <div className="flex flex-col
+                    static left-auto top-auto
+                    h-screen
+                    no-scrollbar w-48
+                  bg-slate-300">
                     
         <SideBarText text={'🏠 Dashboard'} />
         <Divider />
